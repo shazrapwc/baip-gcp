@@ -5,7 +5,6 @@ steps:
   - functions
   - deploy
   - gcf_hello_world
-  - --region=us-east-1
   - --source=.
   - --trigger-http
   - --runtime=nodejs8
